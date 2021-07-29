@@ -1,0 +1,29 @@
+/* #kittyPic{
+    width: 700px;
+} */
+
+
+
+body{
+    /* background-color: rgb(252, 244, 244); */
+}
+
+
+#content{
+    
+}
+
+.menuButton{
+    /* color: green; */
+}
+.paragraph{
+    padding: 10px;
+    margin-right: 400px;
+    border: 1px solid black;
+    
+}
+
+.catPicture{
+    margin-top: 80px;
+   width: 600px;
+}
