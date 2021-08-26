@@ -14,3 +14,7 @@ basicLoadoutNew()
 import menu from "./menu"
 
 menu()
+
+import contact from "./contact"
+
+contact()

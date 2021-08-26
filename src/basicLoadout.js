@@ -1,12 +1,35 @@
 function basicLoadout() {
 
 
+    // git hub test
+
+    const mainBody = document.getElementById('mainBody')
     const mainContentDiv = document.getElementById('content')
     const loadOutContaier = document.createElement('div')
 
     const menuButton = document.createElement('button')
     menuButton.classList.add('menuButton')
     menuButton.innerHTML = 'Menu'
+
+    const homeButton = document.createElement('button')
+    homeButton.classList.add('homeButton')
+    homeButton.innerHTML = 'Home'
+
+    // const contactButton = document.querySelector('.contactButton')
+
+    const contactButton = document.createElement('button')
+    contactButton.classList.add('contactButton')
+    contactButton.innerHTML = 'Contact'
+
+
+
+    console.log(contactButton)
+
+    // const contactButton = document.createElement('button')
+    // contactButton.classList.add('contactButton')
+    // contactButton.innerHTML = 'Contact'
+
+
 
 
     const catPic = document.createElement('img')
@@ -25,15 +48,33 @@ function basicLoadout() {
 
     // mainContentDiv.appendChild(menuButton)
 
-    mainContentDiv.appendChild(loadOutContaier)
-    loadOutContaier.appendChild(catPic)
-    loadOutContaier.appendChild(header)
-    loadOutContaier.appendChild(paragraph)
-    loadOutContaier.appendChild(menuButton)
-    // mainContentDiv.appendChild(catPic)
-    // mainContentDiv.appendChild(header)
-    // mainContentDiv.appendChild(paragraph)
+    // mainContentDiv.appendChild(loadOutContaier)
+    // loadOutContaier.appendChild(catPic)
+    // loadOutContaier.appendChild(header)
+    // loadOutContaier.appendChild(paragraph)
+    // loadOutContaier.appendChild(menuButton)
+    mainContentDiv.appendChild(catPic)
+    mainContentDiv.appendChild(header)
+    mainContentDiv.appendChild(paragraph)
+    mainContentDiv.appendChild(homeButton)
+    mainContentDiv.appendChild(menuButton)
 
+    homeButton.addEventListener('click', () => {
+        mainContentDiv.remove()
+        mainContentDiv.textContent = ''
+        mainBody.appendChild(mainContentDiv)
+
+        mainContentDiv.appendChild(catPic)
+        mainContentDiv.appendChild(header)
+        mainContentDiv.appendChild(paragraph)
+        mainContentDiv.appendChild(homeButton)
+        mainContentDiv.appendChild(menuButton)
+        mainContentDiv.appendChild(contactButton)
+
+
+
+
+    })
 
 
 

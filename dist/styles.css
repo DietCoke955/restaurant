@@ -26,4 +26,22 @@ body{
 .catPicture{
     margin-top: 80px;
    width: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+.menuImg {
+    width: 300px;
+}
+
+.grid-lay {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .contactInfo{
+      margin-top: 50px;
+      margin-bottom: 15px;
+  }
