@@ -2,6 +2,7 @@ function basicLoadout() {
 
 
     // git hub test
+    // git test 2
 
     const mainBody = document.getElementById('mainBody')
     const mainContentDiv = document.getElementById('content')
