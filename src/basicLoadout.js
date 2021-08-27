@@ -3,6 +3,7 @@ function basicLoadout() {
 
     // git hub test
     // git test 2
+    // git test 3
 
     const mainBody = document.getElementById('mainBody')
     const mainContentDiv = document.getElementById('content')
@@ -59,6 +60,7 @@ function basicLoadout() {
     mainContentDiv.appendChild(paragraph)
     mainContentDiv.appendChild(homeButton)
     mainContentDiv.appendChild(menuButton)
+    mainContentDiv.appendChild(contactButton)
 
     homeButton.addEventListener('click', () => {
         mainContentDiv.remove()

@@ -22,6 +22,9 @@ function menu() {
 
     const menuButton = document.querySelector('.menuButton')
     const homeButton = document.querySelector('.homeButton')
+    const contactButton = document.querySelector('.contactButton')
+
+    // console.log(contactButton)
 
     console.log(menuButton)
 
@@ -92,7 +95,9 @@ function menu() {
         mainContentDiv.appendChild(header)
         mainContentDiv.appendChild(homeButton)
         mainContentDiv.appendChild(menuButton)
+        mainContentDiv.appendChild(contactButton)
         mainContentDiv.appendChild(menuDiv)
+
 
         items.forEach((item) => {
             menuDiv.appendChild(item)

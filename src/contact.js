@@ -1,14 +1,17 @@
 function contact() {
 
 
+
+
     const mainContentDiv = document.getElementById('content')
 
 
-    const contactButton = document.createElement('button')
-    contactButton.classList.add('contactButton')
-    contactButton.innerHTML = 'Contact'
+    // const contactButton = document.createElement('button')
+    // contactButton.classList.add('contactButton')
+    // contactButton.innerHTML = 'Contact'
 
-    // const contactButton = document.querySelector('.contactButton')
+    const contactButton = document.querySelector('.contactButton')
+
 
 
     mainContentDiv.appendChild(contactButton)
