@@ -21,8 +21,8 @@ function contact() {
     catPic.src = 'https://thumbs.dreamstime.com/b/cat-prepares-dough-baking-85976605.jpg'
     catPic.classList.add('catPicture')
     const header = document.createElement('h1')
-    header.classList.add('test')
-    header.textContent = 'Welcome to Kitty Cuisine'
+    header.classList.add('headerKitty')
+    header.textContent = 'Kitty Cuisine'
     const menuButton = document.querySelector('.menuButton')
     const homeButton = document.querySelector('.homeButton')
 
@@ -45,12 +45,13 @@ function contact() {
         mainContentDiv.textContent = ''
         mainBody.appendChild(mainContentDiv)
 
-
-        mainContentDiv.appendChild(catPic)
         mainContentDiv.appendChild(header)
         mainContentDiv.appendChild(homeButton)
         mainContentDiv.appendChild(menuButton)
         mainContentDiv.appendChild(contactButton)
+        mainContentDiv.appendChild(catPic)
+
+
         mainContentDiv.appendChild(contactInfo)
         mainContentDiv.appendChild(contactAddress)
         // contactInfo.appendChild(contactAddress)

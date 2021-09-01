@@ -12,8 +12,8 @@ function menu() {
     catPic.src = 'https://thumbs.dreamstime.com/b/cat-prepares-dough-baking-85976605.jpg'
     catPic.classList.add('catPicture')
     const header = document.createElement('h1')
-    header.classList.add('test')
-    header.textContent = 'Welcome to Kitty Cuisine'
+    header.classList.add('headerKitty')
+    header.textContent = 'Kitty Cuisine'
 
     // const basicText = document.createElement('h1')
     // basicText.textContent = 'basic append test'
@@ -91,11 +91,15 @@ function menu() {
         // menuDiv.textContent = 'This a test menu H1'
         // mainContentDiv.appendChild(menuDiv)
 
-        mainContentDiv.appendChild(catPic)
         mainContentDiv.appendChild(header)
         mainContentDiv.appendChild(homeButton)
         mainContentDiv.appendChild(menuButton)
         mainContentDiv.appendChild(contactButton)
+
+
+        mainContentDiv.appendChild(catPic)
+
+
         mainContentDiv.appendChild(menuDiv)
 
 
